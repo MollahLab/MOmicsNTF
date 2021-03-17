@@ -1,8 +1,8 @@
 Python script for the tensor-based high-order correlation analysis in breast cancer microenvironment.
 
-Please cite the following paper if you use the code:
+#### Please cite the following paper if you use the code:
 
-#### Shi, M., Klindziuk, L. and Mollah, S., 2020. A Non-Negative Tensor Factorization Approach to Deconvolute Microenvironment in Breast Cancer. bioRxiv.
+Shi, M., Klindziuk, L. and Mollah, S., 2020. A Non-Negative Tensor Factorization Approach to Deconvolute Microenvironment in Breast Cancer. bioRxiv.
 
 #### significant_test.ipynb
 Significant test for both RPPA and GCP data.
