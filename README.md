@@ -10,6 +10,10 @@ Two datasets were used to model the high-order correlations between signaling pr
 - RPPA (reverse phase protein array): We downloaded the level3 (log 2 normalized) RPPA data from the [Synapse platform](https://www.synapse.org/#!Synapse:syn12555331).
 - GCP (global chromatin profiles): We downloaded the level 3 (log2 normalized) GCP data from the [Synapse platform](https://www.synapse.org/#!Synapse:syn18491838).
 
+we also collected a RNAseq dataset to validate the results produced by our method:
+
+- RNAseq: We downloaded the level 0 (fastq) RNAseq data from the [Synapse platform](https://www.synapse.org/#!Synapse:syn18518040)
+
 ## Requirement
 
   * Python 3.6
