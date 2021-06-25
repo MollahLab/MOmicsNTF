@@ -1,20 +1,37 @@
-Python script for the tensor-based high-order correlation analysis in breast cancer microenvironment.
+MOmicsNTF
+=====
 
-#### Please cite the following paper if you use the code:
+This repository implements the non-negative tensor factorization on multi-omics data to deconvolute the epigenetic microenvironment in breast cancer.
 
-Shi, M., Klindziuk, L. and Mollah, S., 2020. A Non-Negative Tensor Factorization Approach to Deconvolute Microenvironment in Breast Cancer. bioRxiv. DOI: https://www.biorxiv.org/content/10.1101/2020.12.01.406249v1
+## Data
 
-#### 1. significant_test.ipynb
-Significant test for both RPPA and GCP data.
+Two datasets were used to model the high-order correlations between signaling proteins, growth ligands and histone modifications:
 
-#### 2. NTF_with_NCP.ipynb
-Non-negative tensor factorization based on the NCP implementaiton.
+- RPPA (reverse phase protein array): We downloaded the level3 (log 2 normalized) RPPA data from the [Synapse platform](https://www.synapse.org/#!Synapse:syn12555331).
+- GCP (global chromatin profiles): We downloaded the level 3 (log2 normalized) GCP data from the [Synapse platform](https://www.synapse.org/#!Synapse:syn18491838).
 
-#### 3. NTF_with_Tensorly.ipynb
-Non-negative tensor factorization based on the Tensorly implementaiton.
+## Requirement
 
-#### 4. PLSR_NCP.ipynb
-PLSR correlation analysis based on the NCP tensor factoration results.
+  * Python 3.6
+  * Numpy
+  * Jupyter Notebook
 
-#### 5. PLSR_Tensorly.ipynb
-PLSR correlation analysis based on the NCP Tensorly factoration results.
+## Usage
+
+1. The significant_test.ipynb implements the Student's t-test for both RPPA and GCP data
+2. The NTF_NCP.ipynb implements non-negative tensor factorization on RPPA and GCP tensors using NCP.
+3. The NTF_Tensorly.ipynb implements non-negative tensor factorization on RPPA and GCP tensors using Tensorly.
+
+To perform the imputation and forecasting tasks based on NeTOIF, please run the notebook step by step.
+
+## Reference
+
+[1] Kolda, T.G. and Bader, B.W., 2009. Tensor decompositions and applications. SIAM review, 51(3), pp.455-500.
+[2] Kim, J., He, Y. and Park, H., 2014. Algorithms for nonnegative matrix and tensor factorizations: A unified view based on block coordinate descent framework. Journal of Global Optimization, 58(2), pp.285-319.
+[3] Kossaifi, J., Panagakis, Y., Anandkumar, A. and Pantic, M., 2016. Tensorly: Tensor learning in python. arXiv preprint arXiv:1610.09555.
+
+## Citation
+
+Shi, Min, and Shamim Mollah. "NeTOIF: A Network-based Approach for Time-Series Omics Data Imputation and Forecasting." bioRxiv (2021). doi: https://www.biorxiv.org/content/10.1101/2021.06.05.447209v1.abstract
+
+
