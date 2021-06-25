@@ -31,7 +31,9 @@ To perform the NTF based on RPPA and GCP data, please run the corresponding note
 ## Reference
 
 [1] Kolda, T.G. and Bader, B.W., 2009. Tensor decompositions and applications. SIAM review, 51(3), pp.455-500.
+
 [2] Kim, J., He, Y. and Park, H., 2014. Algorithms for nonnegative matrix and tensor factorizations: A unified view based on block coordinate descent framework. Journal of Global Optimization, 58(2), pp.285-319.
+
 [3] Kossaifi, J., Panagakis, Y., Anandkumar, A. and Pantic, M., 2016. Tensorly: Tensor learning in python. arXiv preprint arXiv:1610.09555.
 
 ## Citation
