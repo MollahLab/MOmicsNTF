@@ -22,7 +22,7 @@ Two datasets were used to model the high-order correlations between signaling pr
 2. The NTF_NCP.ipynb implements non-negative tensor factorization on RPPA and GCP tensors using NCP.
 3. The NTF_Tensorly.ipynb implements non-negative tensor factorization on RPPA and GCP tensors using Tensorly.
 
-To perform the imputation and forecasting tasks based on NeTOIF, please run the notebook step by step.
+To perform the NTF based on RPPA and GCP data, please run the corresponding notebooks step by step.
 
 ## Reference
 
