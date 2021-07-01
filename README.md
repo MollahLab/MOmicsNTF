@@ -1,4 +1,4 @@
-MOmicsNTF
+TEME-NTF
 =====
 
 This repository implements the non-negative tensor factorization on multi-omics data to deconvolute the epigenetic microenvironment in breast cancer.
